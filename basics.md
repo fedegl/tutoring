@@ -1,6 +1,11 @@
 ### Exercises
 
-#### Build a calculator
+#### Arrays
+
+#### Hashes
+
+
+#### Objects
 
     class Calculator
       def add(a, b)
