@@ -1,0 +1,14 @@
+Terminal Command List:
+
+Make a new folder= mkdir
+open folder=  open ______
+Go back a directory = cd ..
+Where you are = pwd
+
+Git commands:
+
+git init . = initalize a git repository in the current directory
+git add readme.txt = I want the changes I have done to be added to my repository
+git commit -m "_____" = Save the changes in my local repository with the message describing the changes
+git push origin master = pushes the changes to github
+
