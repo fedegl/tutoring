@@ -43,12 +43,12 @@ fruit = ["apple",2,"berry"] # => with values
 fruit << "kiwi"             # => will insert at the end of the array
 fruit.push("kiwi")          # => will insert at the end of the array
 ```
-*your array will now be => ```array = ["apple",2,"berry", "kiwi"]```
+*your array will now be => ```array = ["apple",2,"berry", "kiwi"]```*
 
 ```
 fruit.insert(2, "kiwi")     # => Insert the word "kiwi" at position 2 in the array
 ```
-*your array will now be => array = ["apple",2,"kiwi", "berry"]
+*your array will now be => array = ["apple",2,"kiwi", "berry"]*
 
 ##### Accessing elements in an array
 
@@ -85,7 +85,7 @@ array.uniq              # => will return only unique elements in an array
 books = {}  # => empty hash
 books = { "Bulgakov" => "Master and Margarita", "Tolstoi" => "War and Peace" }
 ```
-*key => value (key = "Bulgakov", value="Master and Margarita")
+*key => value (key = "Bulgakov", value="Master and Margarita")*
 
 ##### Putting elements into a hash
 
