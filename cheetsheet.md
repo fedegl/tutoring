@@ -3,14 +3,14 @@
 ##### General
 ```
 ls                          # => List files in the current folder
-open *path/to/directory*    # => Open the specified directory on Finder
+open path/to/directory      # => Open the specified directory on Finder
 pwd                         # => Tells you where you are in the directory structure
 ```
 
 ##### Navigate the directory tree
 ```
 cd ..                       # => Go the the parent of the current directory
-cd */path/to/folder*        # => Move the the specified folder
+cd /path/to/folder          # => Move the the specified folder
 ```
 
 ### Git commands:
@@ -19,7 +19,7 @@ cd */path/to/folder*        # => Move the the specified folder
 git init */path/to/folder*  # => Initialize the directory specified (to create a git repository on the current directory use a dot. eg: "git init .")
 
 git add .                               # => Add all files
-git *path/to/file.txt*                  # => Add only the specified file
+git path/to/file.txt                    # => Add only the specified file
 git commit -m "descriptive message"     # => Commit the changes. Important!!! Use a descriptive message for the changes made.
 git push origin master                  # => Push the changes to the "origin" repository in the "master" branch. In our case origin represents the github repository.
 git pull origin master                  # => Get any changes from the "origin" repository. Important!! Always do this before pushing.
