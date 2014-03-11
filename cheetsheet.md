@@ -16,7 +16,7 @@ cd /path/to/folder          # => Move the the specified folder
 ### Git commands:
 
 ```
-git init */path/to/folder*  # => Initialize the directory specified (to create a git repository on the current directory use a dot. eg: "git init .")
+git init /path/to/folder    # => Initialize the directory specified (to create a git repository on the current directory use a dot. eg: "git init .")
 
 git add .                               # => Add all files
 git path/to/file.txt                    # => Add only the specified file
@@ -43,12 +43,12 @@ fruit = ["apple",2,"berry"] # => with values
 fruit << "kiwi"             # => will insert at the end of the array
 fruit.push("kiwi")          # => will insert at the end of the array
 ```
-# your array will now be => ```array = ["apple",2,"berry", "kiwi"]```
+*your array will now be => ```array = ["apple",2,"berry", "kiwi"]```
 
 ```
 fruit.insert(2, "kiwi")     # => Insert the word "kiwi" at position 2 in the array
 ```
-# your array will now be => array = ["apple",2,"kiwi", "berry"]
+*your array will now be => array = ["apple",2,"kiwi", "berry"]
 
 ##### Accessing elements in an array
 
@@ -56,7 +56,6 @@ fruit.insert(2, "kiwi")     # => Insert the word "kiwi" at position 2 in the arr
 fruit[2]    # => will output "berry"
 fruit[0..2] # => will output "apple, 2, "berry" (sitting at index 0,1,2)
 ```
-
 
 ##### Deleting elements from an array
     
@@ -86,7 +85,7 @@ array.uniq              # => will return only unique elements in an array
 books = {}  # => empty hash
 books = { "Bulgakov" => "Master and Margarita", "Tolstoi" => "War and Peace" }
 ```
-# key => value (key = "Bulgakov", value="Master and Margarita")
+*key => value (key = "Bulgakov", value="Master and Margarita")
 
 ##### Putting elements into a hash
 
