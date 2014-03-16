@@ -37,6 +37,20 @@ fruit = ["apple",2,"berry"] # => with values
 ```
 *Each element in the array has an index, and starts at zero*
 
+##### Loop through an array
+
+```
+fruits = ["apple","mango","berry"]
+fruits.each do |fruit|
+  puts fruit
+end
+
+fruits.each_with_index do |fruit, index|
+  puts "#{index}. #{fruit}"
+end
+
+```
+
 ##### Inserting elements into an array
 
 ```
